@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 128, 0.8),
+    rgba(75, 0, 130, 0.8)
+  );
+}
