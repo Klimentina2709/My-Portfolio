@@ -129,7 +129,7 @@ function Services() {
           <Button
             colorScheme="teal"
             onClick={() =>
-              window.open("/CV/KlimentinaSokolovska.pdf", "_blank")
+              window.open("/My-Portfolio/CV/KlimentinaSokolovska.pdf", "_blank")
             }
           >
             View My CV
@@ -138,7 +138,7 @@ function Services() {
             colorScheme="teal"
             onClick={() => {
               const link = document.createElement("a");
-              link.href = "/CV/KlimentinaSokolovska.pdf";
+              link.href = "/My-Portfolio/CV/KlimentinaSokolovska.pdf";
               link.download = "KlimentinaSokolovska_CV.pdf";
               link.click();
             }}

@@ -8,9 +8,9 @@ export const database: Database = {
       description:
         "A personal portfolio website to showcase my projects and skills.",
       technologies: ["React", "Chakra-UI", "Vite", "HTML/CSS", "Framer Motion"],
-      secondImage: "/images/portfolio/banner.png",
+      secondImage: "/My-Portfolio/images/portfolio/banner.png",
       viewCodeLink: "https://github.com/your-portfolio-repo",
-      image: "/images/portfolio/page.png",
+      image: "/My-Portfolio/images/portfolio/page.png",
       detailedDescription:
         "This portfolio showcases my work as a developer, featuring a variety of projects that highlight my skills in web development and design. I took full ownership of the design process, serving as the UX/UI designer to create a cohesive and visually appealing layout. Each project reflects my commitment to functionality and aesthetics. The design is completely my own, ensuring a unique touch throughout. The layout is responsive and user-friendly, providing an optimal experience on all devices, whether you're using a desktop, tablet, or smartphone. I invite you to explore my work and see how I bring ideas to life through thoughtful design and innovative solutions.",
       features: [
@@ -28,8 +28,8 @@ export const database: Database = {
         "A website with filtering and search functionality for blogs and events, aligned with the clients's goals of supporting human resource management and organizational development.",
       technologies: ["Next.js", "Tailwind CSS", "Framer Motion", "SPA"],
       viewCodeLink: "https://github.com/Klimentina2709/MHRA",
-      secondImage: "/images/MHRA/banner.png",
-      image: "/images/MHRA/page.png",
+      secondImage: "/My-Portfolio/images/MHRA/banner.png",
+      image: "/My-Portfolio/images/MHRA/page.png",
       detailedDescription:
         "As a Front-End Developer, I had the exciting opportunity to build a website from scratch using Next.js and Tailwind CSS. A major part of this project was integrating Framer Motion to add engaging animations, making the user experience more dynamic and visually appealing. I also implemented search and filter functionality, which allowed users to easily find the information they needed using data from a provided JSON file. This feature greatly enhanced the usability of the website, making it more interactive and user-friendly. This project was a valuable learning experience for me, as it laid a strong foundation in developing functional web applications. I enjoyed every moment of bringing the website to life and am proud of the skills I developed along the way.",
       features: [
@@ -53,8 +53,8 @@ export const database: Database = {
         "JavaScript",
       ],
       viewCodeLink: "https://github.com/Klimentina2709/Safeblink",
-      secondImage: "/images/Safeblink/banner.png",
-      image: "/images/Safeblink/page.png",
+      secondImage: "/My-Portfolio/images/Safeblink/banner.png",
+      image: "/My-Portfolio/images/Safeblink/page.png",
       detailedDescription:
         "As a Front-End Developer, I worked on the Safeblink webpage, where I focused on making sure users could securely log in and access the app. I implemented user authentication using a backend to ensure that only authorized users could use the application. This helped keep user data safe and built trust in the platform. I used JavaScript and Tailwind CSS to create a responsive design that looks great on desktops, tablets, and mobile devices. My goal was to make it easy for all users to navigate and interact with the app, no matter what device they were using. By focusing on both how the app works and how it looks, I aimed to create a product that meets user needs while also being enjoyable to use. I'm proud to have contributed to a project that values security and user engagement, making Safeblink a reliable choice for its users.",
       features: [
@@ -71,8 +71,8 @@ export const database: Database = {
         "A website developed to introduce users to the concept of unlearning, promoting a sustainable and inclusive world.",
       technologies: ["React", "CSS", "Material UI", "Postman"],
       viewCodeLink: "https://github.com/Klimentina2709/larger-world",
-      secondImage: "/images/largerWorld/banner.png",
-      image: "/images/largerWorld/page.png",
+      secondImage: "/My-Portfolio/images/largerWorld/banner.png",
+      image: "/My-Portfolio/images/largerWorld/page.png",
       detailedDescription:
         "As a developer, I had the pleasure of working in a team of four to create a single-page application (SPA) during a 48-hour hackathon. Our goal was to develop a website that introduces users to the concept of unlearning, promoting a more sustainable and inclusive world. Starting from scratch, we followed a detailed Figma design provided by the client, which called for a minimalistic and user-friendly interface that would make the information easily accessible and engaging. Given the tight deadline, we prioritized implementing essential features that would enhance the user experience, focusing on simplicity and functionality. Working remotely, we relied on Git and GitHub to communicate efficiently and manage our codebase, which allowed us to stay organized and collaborate seamlessly despite the high-pressure environment. This project not only strengthened my technical skills with React but also taught me the importance of clear communication and teamwork in delivering a cohesive product within strict time constraints. I am proud of what our team accomplished and grateful for the opportunity to contribute to a meaningful, values-driven project.",
       features: [
@@ -90,8 +90,8 @@ export const database: Database = {
       technologies: ["HTML", "Sass", "JavaScript"],
       viewProjectLink: "https://klimentina2709.github.io/BrainsterLabs/",
       viewCodeLink: "https://github.com/Klimentina2709/BrainsterLabs",
-      image: "/images/BrainsterLabs/homepage.png",
-      secondImage: "/images/BrainsterLabs/banner.png",
+      image: "/My-Portfolio/images/BrainsterLabs/homepage.png",
+      secondImage: "/My-Portfolio/images/BrainsterLabs/banner.png",
       detailedDescription:
         "This project provides users with an intuitive way to filter available courses while ensuring their inputs are validated in a user-friendly manner. Brainster Labs was one of the first projects I undertook when I started learning front-end development. It allowed me to create a multi-page application and style everything using Sass, which was an exciting experience. Utilizing the filter() method and implementing form validation for the first time was particularly rewarding. This project is special, as it represents my educational journey at the Brainster Front-end Academy and marks the beginning of my career in web development.",
       features: [
@@ -111,8 +111,8 @@ export const database: Database = {
       viewProjectLink:
         "https://klimentina2709.github.io/Simple-Portfolio-Demo/",
       viewCodeLink: "https://github.com/Klimentina2709/Simple-Portfolio-Demo",
-      image: "/images/ShowcaseProject/about.png",
-      secondImage: "/images/ShowcaseProject/page.png",
+      image: "/My-Portfolio/images/ShowcaseProject/about.png",
+      secondImage: "/My-Portfolio/images/ShowcaseProject/page.png",
       detailedDescription:
         "This project is a multi-page portfolio website built using HTML, JavaScript, and Materialize CSS for styling. It was my first attempt at creating a personal portfolio, featuring a carousel to showcase various projects, a simple filtering option to navigate through them, an About Me section, and a contact form. Developing this portfolio was a valuable starting point for me to dive into coding and design, providing hands-on experience with structuring a web application and implementing interactive elements. ",
       features: [

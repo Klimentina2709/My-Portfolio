@@ -93,7 +93,10 @@ function About() {
               mt={10}
               colorScheme="teal"
               onClick={() =>
-                window.open("/CV/KlimentinaSokolovska.pdf", "_blank")
+                window.open(
+                  "/My-Portfolio/CV/KlimentinaSokolovska.pdf",
+                  "_blank"
+                )
               }
             >
               Here you can view My CV
@@ -116,7 +119,7 @@ function About() {
             mb={{ base: 6, md: 0 }}
           >
             <Image
-              src="/images/aboutMe.jpg"
+              src="/My-Portfolio/images/aboutMe.jpg"
               alt="Klimentina"
               style={{
                 width: "90%",
