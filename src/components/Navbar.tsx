@@ -9,7 +9,7 @@ function Navbar() {
       p={4}
       bg="white"
       boxShadow="0 2px 4px rgba(0, 0, 0, 0.1)"
-      position="fixed"
+      position={{ base: "relative", md: "fixed" }}
       top="0"
       width="100%"
       zIndex="10"
