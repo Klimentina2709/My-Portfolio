@@ -32,9 +32,9 @@ This is my personal portfolio website, designed to showcase my journey and achie
 ## Technologies Used
 
 - ![React](https://img.shields.io/badge/Frontend-React-blue?logo=react&logoColor=white) React Router for page navigation
-- ![Chakra UI](https://img.shields.io/badge/Styling-Chakra%20UI-blueviolet?logo=chakraui&logoColor=white) Styling
-- ![Framer Motion](https://img.shields.io/badge/Animation-Framer%20Motion-ff69b4?logo=framermotion&logoColor=white) Animation
-- ![GitHub Pages](https://img.shields.io/badge/Deployment-GitHub%20Pages-black?logo=github&logoColor=white) Deployment
+- ![Chakra UI](https://img.shields.io/badge/Chakra%20UI-blueviolet?logo=chakraui&logoColor=white) Styling
+- ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-ff69b4?logo=framermotion&logoColor=white) Animation
+- ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-black?logo=github&logoColor=white) Deployment
 
 ## Contact
 
