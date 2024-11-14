@@ -47,7 +47,7 @@ const Projects: React.FC = () => {
         </Box>
       </Box>
       <Box bg="white" maxW="80%" mx="auto">
-        <Box maxW="60%" mx="auto">
+        <Box maxW="65%" mx="auto" pt={6}>
           {projects.slice(0, 3).map((project) => {
             const { ref, inView } = useInView({
               triggerOnce: true,

@@ -9,7 +9,7 @@ export const database: Database = {
         "A personal portfolio website to showcase my projects and skills.",
       technologies: ["React", "Chakra-UI", "Vite", "HTML/CSS", "Framer Motion"],
       secondImage: "/My-Portfolio/images/portfolio/banner.png",
-      viewCodeLink: "https://github.com/your-portfolio-repo",
+      viewCodeLink: "https://github.com/Klimentina2709/My-Portfolio",
       image: "/My-Portfolio/images/portfolio/page.png",
       detailedDescription:
         "This portfolio showcases my work as a developer, featuring a variety of projects that highlight my skills in web development and design. I took full ownership of the design process, serving as the UX/UI designer to create a cohesive and visually appealing layout. Each project reflects my commitment to functionality and aesthetics. The design is completely my own, ensuring a unique touch throughout. The layout is responsive and user-friendly, providing an optimal experience on all devices, whether you're using a desktop, tablet, or smartphone. I invite you to explore my work and see how I bring ideas to life through thoughtful design and innovative solutions.",
