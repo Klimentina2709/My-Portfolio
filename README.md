@@ -11,11 +11,11 @@
 - [Technologies Used](#technologies-used)
 - [Contact](#contact)
 
-## Portfolio screenshot
+## Screenshot
 
 ![Portfolio Screenshot](/public/screenshot.png)
 
-## View my Portfolio live
+## Portfolio
 
 You can view my live portfolio here: [**Live Portfolio**](https://klimentina2709.github.io/My-Portfolio/)
 
