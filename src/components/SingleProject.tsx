@@ -87,8 +87,8 @@ const SingleProject = () => {
             alignItems="flex-end"
             justifyContent="flex-end"
             opacity="0"
-            transition="opacity 0.4s ease" // Slightly slower transition for overlay text
-            bg="rgba(0, 0, 0, 0.4)" // Slightly darker background for better readability
+            transition="opacity 0.4s ease" 
+            bg="rgba(0, 0, 0, 0.4)" 
             color="white"
             p={10}
           >
