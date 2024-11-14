@@ -87,8 +87,8 @@ const SingleProject = () => {
             alignItems="flex-end"
             justifyContent="flex-end"
             opacity="0"
-            transition="opacity 0.4s ease" 
-            bg="rgba(0, 0, 0, 0.4)" 
+            transition="opacity 0.4s ease"
+            bg="rgba(0, 0, 0, 0.4)"
             color="white"
             p={10}
           >
