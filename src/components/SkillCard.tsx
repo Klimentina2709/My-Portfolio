@@ -33,7 +33,7 @@ function SkillCard({ icon, title, children, paragraph }: Props) {
       >
         <Text
           fontWeight="bold"
-          fontSize={{ base: "2xl", md: "3xl" }}
+          fontSize={{ base: "sm", md: "lg", lg: "3xl" }}
           color="teal.900"
         >
           {title}

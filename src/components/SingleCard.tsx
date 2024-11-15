@@ -71,7 +71,9 @@ const SingleCard: React.FC<ProjectCardProps> = ({
             href={viewCodeLink}
             target="_blank"
             rel="noopener noreferrer"
+            fontSize={{ base: "xs", md: "lg" }}
             width={{ base: "100%", lg: "auto" }}
+            whiteSpace="wrap"
             colorScheme="teal"
             _hover={{ bg: "teal.600" }}
             rightIcon={<Icon as={FaGithub} />}
@@ -84,8 +86,12 @@ const SingleCard: React.FC<ProjectCardProps> = ({
             to={`/projects/${id}`}
             rightIcon={<ArrowForwardIcon />}
             colorScheme="teal"
+            fontSize={{ base: "xs", md: "lg" }}
             variant="outline"
             width={{ base: "100%", lg: "auto" }}
+            whiteSpace="wrap"
+            textAlign="center"
+            px={4}
           >
             Project Details
           </Button>

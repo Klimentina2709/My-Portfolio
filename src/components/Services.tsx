@@ -125,12 +125,17 @@ function Services() {
       </motion.div>
 
       <Center py={20}>
-        <HStack spacing={4}>
+        <HStack
+          spacing={4}
+          flexDirection={{ base: "column", md: "row" }}
+          alignItems="center"
+        >
           <Button
             colorScheme="teal"
             onClick={() =>
               window.open("/My-Portfolio/CV/KlimentinaSokolovska.pdf", "_blank")
             }
+            w={{ base: "full", md: "auto" }}
           >
             View My CV
           </Button>
@@ -142,6 +147,7 @@ function Services() {
               link.download = "KlimentinaSokolovska_CV.pdf";
               link.click();
             }}
+            w={{ base: "full", md: "auto" }}
           >
             Download My CV
           </Button>

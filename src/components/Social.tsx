@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaBehance, FaEnvelope } from "react-icons/fa";
 
 const Social = () => {
   return (
-    <Box bg="teal.500">
+    <Box bg="teal.500" overflow="hidden" overflowX="auto">
       <Flex justify="space-between" align="center" maxW="80%" mx="auto" py={10}>
         <Text
           as="span"
