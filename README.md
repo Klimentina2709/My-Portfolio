@@ -21,7 +21,7 @@ You can view my live portfolio here: [**Live Portfolio**](https://klimentina2709
 
 ## About the Project
 
-This is my personal portfolio website, designed to showcase my journey and achievements as a front-end developer. The website includes sections about me, my skills, and the projects I've worked on. Each project has details about the technologies used and links to the live site and GitHub repository. It is built with React.js and styled using Chakra UI. Routing is included to ensure seamless navigation, allowing visitors to easily explore selected projects and view their corresponding code on GitHub. Screenshots are also provided for a more visually engaging experience.
+This is my personal portfolio website, designed to showcase my journey and achievements as a front-end developer. The website includes sections about me, my skills, and the projects I've worked on. Each project has details about the technologies used and links to the live site and GitHub repository. It is built with React.js and styled using Chakra UI. Routing is included to ensure seamless navigation, allowing visitors to easily explore selected projects and view their corresponding code on GitHub.
 
 ## Features
 
