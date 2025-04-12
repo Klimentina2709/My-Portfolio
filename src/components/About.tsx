@@ -9,7 +9,6 @@ import {
   AccordionItem,
   AccordionPanel,
   Image,
-  Button,
 } from "@chakra-ui/react";
 import Interests from "./Interests";
 import { questionsAndAnswers } from "../db";
