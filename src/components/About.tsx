@@ -89,18 +89,15 @@ function About() {
               </Text>
             </VStack>
 
-            <Button
+            {/* <Button
               mt={10}
               colorScheme="teal"
               onClick={() =>
-                window.open(
-                  "/My-Portfolio/CV/KlimentinaSokolovska.pdf",
-                  "_blank"
-                )
+                window.open("/CV/KlimentinaSokolovska.pdf", "_blank")
               }
             >
               Here you can view My CV
-            </Button>
+            </Button> */}
           </Box>
         </motion.div>
 

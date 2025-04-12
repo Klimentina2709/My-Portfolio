@@ -40,7 +40,7 @@ export const MoreProjects = () => {
           variants={animationVariants}
           transition={transition}
         >
-          <Box maxW="65%" mx="auto" pt={6}>
+          <Box maxW="60%" mx="auto">
             {projects.map((project) => (
               <Box mb={10} key={project.id}>
                 <SingleCard

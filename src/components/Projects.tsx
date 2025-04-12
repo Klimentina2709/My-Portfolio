@@ -47,34 +47,38 @@ const Projects: React.FC = () => {
         </Box>
       </Box>
       <Box bg="white" maxW="80%" mx="auto">
-        <Box maxW="65%" mx="auto" pt={6}>
-          {projects.slice(0, 3).map((project) => {
-            const { ref, inView } = useInView({
-              triggerOnce: true,
-              threshold: 0.2,
-            });
+        <Box maxW="60%" mx="auto">
+          {projects && projects.length > 0 ? (
+            projects.slice(0, 4).map((project) => {
+              const { ref, inView } = useInView({
+                triggerOnce: true,
+                threshold: 0.2,
+              });
 
-            return (
-              <motion.div
-                key={project.id}
-                ref={ref}
-                initial={{ opacity: 0, y: 50 }}
-                animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 20 }}
-                transition={{ duration: 1.5 }}
-              >
-                <Box mb={10}>
-                  <SingleCard
-                    title={project.title}
-                    description={project.description}
-                    imageUrl={project.secondImage}
-                    tools={project.technologies}
-                    id={project.id}
-                    viewCodeLink={project.viewCodeLink}
-                  />
-                </Box>
-              </motion.div>
-            );
-          })}
+              return (
+                <motion.div
+                  key={project.id}
+                  ref={ref}
+                  initial={{ opacity: 0, y: 50 }}
+                  animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 20 }}
+                  transition={{ duration: 1.5 }}
+                >
+                  <Box mb={10}>
+                    <SingleCard
+                      title={project.title}
+                      description={project.description}
+                      imageUrl={project.secondImage}
+                      tools={project.technologies}
+                      id={project.id}
+                      viewCodeLink={project.viewCodeLink}
+                    />
+                  </Box>
+                </motion.div>
+              );
+            })
+          ) : (
+            <p>No projects available</p>
+          )}
         </Box>
 
         <Flex justifyContent="center" mt={4} pb={20}>

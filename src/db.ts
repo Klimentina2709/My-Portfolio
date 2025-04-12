@@ -3,13 +3,35 @@ import { Database, QuestionAndAnswers } from "./types";
 export const database: Database = {
   projects: [
     {
+      id: 10,
+      title: "Netflix Clone",
+      description:
+        "A full-stack Netflix clone built with React and Firebase, featuring authentication, movie listings, and a trailer pop-up.",
+      technologies: ["React", "Firebase", "TMDB API", "CSS"],
+      viewProjectLink: "https://netflix-clone-6a241.web.app/",
+      secondImage: "/My-Portfolio/images/Netflix/banner.png",
+      viewCodeLink: "https://github.com/Klimentina2709/Netflix-Clone",
+      image: "/My-Portfolio/images/Netflix/page.png",
+      detailedDescription:
+        "This Netflix clone is a full-stack application that focuses on user authentication with Firebase, fetching movie data from the TMDB API, and displaying a homepage with movie trailers. The project was created to strengthen my skills in handling both frontend and backend integrations, using React.js for the user interface and Firebase for user authentication. The app is a Single Page Application (SPA), ensuring a smooth and fast user experience. The layout is responsive, working seamlessly across desktop and mobile devices.",
+      features: [
+        "Firebase Authentication: User sign-up, login, and logout functionality",
+        "Dynamic Movie Listings: Movies fetched from the TMDB API and displayed on the homepage",
+        "Trailer Pop-up: Click a movie to view its trailer in a pop-up modal",
+        "SPA: Fast, responsive navigation without full page reloads",
+        "Fully Responsive: Optimized for mobile, tablet, and desktop",
+        "Firebase Hosting: The app is hosted on Firebase for fast, reliable access",
+      ],
+      duration: "January 2025 - February 2025",
+    },
+    {
       id: 1,
       title: "Personal Portfolio",
       description:
         "A personal portfolio website to showcase my projects and skills.",
       technologies: ["React", "Chakra-UI", "Vite", "HTML/CSS", "Framer Motion"],
       secondImage: "/My-Portfolio/images/portfolio/banner.png",
-      viewCodeLink: "https://github.com/Klimentina2709/My-Portfolio",
+      viewCodeLink: "https://github.com/your-portfolio-repo",
       image: "/My-Portfolio/images/portfolio/page.png",
       detailedDescription:
         "This portfolio showcases my work as a developer, featuring a variety of projects that highlight my skills in web development and design. I took full ownership of the design process, serving as the UX/UI designer to create a cohesive and visually appealing layout. Each project reflects my commitment to functionality and aesthetics. The design is completely my own, ensuring a unique touch throughout. The layout is responsive and user-friendly, providing an optimal experience on all devices, whether you're using a desktop, tablet, or smartphone. I invite you to explore my work and see how I bring ideas to life through thoughtful design and innovative solutions.",
@@ -119,6 +141,46 @@ export const database: Database = {
         "Multi-page layout: Developed a multi-page structure to organize content effectively, allowing users to seamlessly navigate between sections like projects, about me, and contact.",
         "Carousel for project showcase: Implemented a carousel feature to visually highlight various projects, making it easier for users to browse through the portfolio's key works",
         "Simple filtering functionality: Added a filtering system that lets users quickly filter projects.",
+      ],
+
+      duration: "June - 2023",
+    },
+    {
+      id: 7,
+      title: "To-Do App",
+      description: "A simple To-Do App with pure HTML, CSS and Java Script",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      viewProjectLink: "https://klimentina2709.github.io/To-Do-App/",
+      viewCodeLink:
+        "https://github.com/Klimentina2709/To-Do-App/tree/To-Do_Vanilla_JavaScript",
+      image: "/My-Portfolio/images/ToDoApp/page.png",
+      secondImage: "/My-Portfolio/images/ToDoApp/banner.png",
+      detailedDescription:
+        "This project was a practice exercise to improve my understanding of basic web development concepts using plain JavaScript, CSS, and HTML. The goal was to create a simple, interactive application without relying on any frameworks or libraries.",
+      features: [
+        "Manipulating the DOM using JavaScript - Add tasks to the to-do list",
+        "Working with basic HTML and CSS for structuring and styling the application - Simple user interface",
+        "JavaScript logic for adding, deleting, and updating tasks",
+      ],
+
+      duration: "June - 2023",
+    },
+    {
+      id: 8,
+      title: "Bikes E-Commerce Page",
+      description: "",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      viewProjectLink: "https://klimentina2709.github.io/Bikes/",
+      viewCodeLink:
+        "https://github.com/Klimentina2709/Bikes/tree/Vanilla_JavaScript_Page",
+      image: "/My-Portfolio/images/Bikes/page.png",
+      secondImage: "/My-Portfolio/images/Bikes/banner.png",
+      detailedDescription:
+        "The Bike Page Project represents my progression as a front-end developer. I started with a basic implementation using vanilla JavaScript and plain CSS, learning to create dynamic content and make AJAX requests. Later, I revisited the project to rebuild it with React, introducing myself to component-based architecture, state management, and using Bootstrap for responsive styling. React based project can be found here - https://github.com/Klimentina2709/Bikes/tree/React_Page  ",
+      features: [
+        "Dynamic content creation using JavaScript",
+        "A basic AJAX request to fetch data from an external API using the fetch method",
+        "Simple design, basic styling with CSS for a clean look",
       ],
 
       duration: "June - 2023",

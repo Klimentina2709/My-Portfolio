@@ -1,10 +1,7 @@
 import {
   Box,
-  Button,
-  Center,
   Flex,
   Heading,
-  HStack,
   Icon,
   List,
   ListItem,
@@ -64,7 +61,7 @@ const transition = {
 
 function Services() {
   return (
-    <Box px={{ base: 4, md: 8 }} bg="gray.50" pt={20}>
+    <Box px={{ base: 4, md: 8 }} bg="gray.50" py={20}>
       <Heading
         as="h3"
         size={{ base: "lg", md: "xl" }}
@@ -123,36 +120,6 @@ function Services() {
           ))}
         </Box>
       </motion.div>
-
-      <Center py={20}>
-        <HStack
-          spacing={4}
-          flexDirection={{ base: "column", md: "row" }}
-          alignItems="center"
-        >
-          <Button
-            colorScheme="teal"
-            onClick={() =>
-              window.open("/My-Portfolio/CV/KlimentinaSokolovska.pdf", "_blank")
-            }
-            w={{ base: "full", md: "auto" }}
-          >
-            View My CV
-          </Button>
-          <Button
-            colorScheme="teal"
-            onClick={() => {
-              const link = document.createElement("a");
-              link.href = "/My-Portfolio/CV/KlimentinaSokolovska.pdf";
-              link.download = "KlimentinaSokolovska_CV.pdf";
-              link.click();
-            }}
-            w={{ base: "full", md: "auto" }}
-          >
-            Download My CV
-          </Button>
-        </HStack>
-      </Center>
     </Box>
   );
 }
